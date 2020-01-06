@@ -1,0 +1,10 @@
+<a [routerLink]="['/home']"><i class="fas fa-home fa-2x"></i></a>
+<h1>User info</h1>
+<section id="profil">
+    <img src="{{user.avatar}}" alt="picture of {{user.first_name}}  {{user.last_name}}">
+    <section id="">
+        <h5 id="firstName">{{user.first_name}}</h5>
+        <h5 id="lastName">{{user.last_name}}</h5>
+        <a href="{{user.email}}" id="mail">{{user.email}}</a>
+    </section>
+</section>

@@ -1,0 +1,21 @@
+#profil {
+    width: 400px;
+    height: 128px;
+    margin: 10px;
+    display: flex;
+    background-color: grey;
+    border: 1px black solid;
+}
+h5 {
+    margin: 5px;
+    height: 20px;
+}
+#mail {
+    color: #1E90FF;
+    display: flex;
+    justify-content: start;
+    height: 20px;
+}
+#info {
+    margin: 5px;
+}

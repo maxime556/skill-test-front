@@ -1,0 +1,8 @@
+<h1>User list</h1>
+
+<section *ngFor="let user of users">
+    <img src="{{user.avatar}}" alt="picture of {{user.first_name}}  {{user.last_name}}">
+   <h5 id="firstName">{{user.first_name}}</h5>
+   <h5 id="lastName">{{user.last_name}}</h5>
+   <a id="showProfile" [routerLink]="['/user/', user.id]"><i class="fas fa-user" ></i></a>
+</section>
